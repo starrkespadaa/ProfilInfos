@@ -1,0 +1,23 @@
+@media screen and (max-width: 768px) {
+    /* Styles pour les petits écrans comme ceux des iPhone et iPad */
+    .profile-picture img {
+      max-width: 150px;
+      max-height: 150px;
+    }
+  
+    .pjoinmychannel {
+      margin-top: 60px;
+      font-size: 14px; /* Ajuster la taille de la police selon vos besoins */
+    }
+  
+    .h5nom {
+      font-size: 18px; /* Ajuster la taille de la police selon vos besoins */
+    }
+  
+    .bio {
+      font-size: 18px; /* Ajuster la taille de la police selon vos besoins */
+    }
+  }
+
+@import url('https://fonts.cdnfonts.com/css/greconian');
+  
