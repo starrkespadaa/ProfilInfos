@@ -1,23 +1,69 @@
+body {
+    background: linear-gradient(to right, black, white);
+}
+
+/* Styles pour la section du profil */
+.profile-picture img {
+    max-width: 200px; /* Largeur maximale de la photo de profil */
+    max-height: 200px; /* Hauteur maximale de la photo de profil */
+    margin-top: 30px;
+}
+
+.social-icons .me-3 {
+    color: white; /* Couleur des icônes */
+}
+
+.social-icons a i {
+    transition: transform 0.3s ease; /* Animation de 0.3 seconde avec une courbe d'accélération */
+}
+
+.social-icons a:hover i {
+    transform: scale(1.5); /* Agrandissement de 50% au survol */
+    color: rgb(223, 170, 170);
+}
+
+.card-body {
+    background-color: #333333; /* Gris anthracite en hexadécimal */
+    border-radius: 25px;    
+}
+
+.pjoinmychannel {
+    margin-top: 60px;
+    font-size: 14px; /* Ajuster la taille de la police
+    color: rgb(58, 40, 172);
+}
+
+.h5nom {
+    font-family: Greconian;
+    font-size: 18px; /* Ajuster la taille de la police selon vos besoins */
+    color: rgb(255, 238, 218);
+    
+}
+
+.bio {
+    margin-top: 16px;
+    font-family: "HP Simplified";
+    font-size: 18px; /* Ajuster la taille de la police selon vos besoins */
+    color: grey;
+}
+
+/* Styles pour le Pokémon */
+#pokemon {
+    position: absolute;
+    left: 45%;
+    transform: translateX(-50%);
+    width: 90px;
+    height: 90px;
+}
+
+@import url('https://fonts.cdnfonts.com/css/greconian');
+
 @media screen and (max-width: 768px) {
     /* Styles pour les petits écrans comme ceux des iPhone et iPad */
     .profile-picture img {
       max-width: 150px;
       max-height: 150px;
     }
-  
-    .pjoinmychannel {
-      margin-top: 60px;
-      font-size: 14px; /* Ajuster la taille de la police selon vos besoins */
-    }
-  
-    .h5nom {
-      font-size: 18px; /* Ajuster la taille de la police selon vos besoins */
-    }
-  
-    .bio {
-      font-size: 18px; /* Ajuster la taille de la police selon vos besoins */
-    }
-  }
 
-@import url('https://fonts.cdnfonts.com/css/greconian');
+  }
   
