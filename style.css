@@ -70,7 +70,7 @@ body {
 #pokemon {
   position: absolute;
   top: 90%; /* Ajustez cette valeur pour décaler vers le haut */
-  left: calc(60% - 125px); /* Ajustez cette valeur pour décaler vers la gauche */
+  left: calc(69% - 125px); /* Ajustez cette valeur pour décaler vers la gauche */
   transform: translate(-70%, -120%);
   width: 100px;
   height: 100px;
