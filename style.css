@@ -1,103 +1,108 @@
 body {
-    background: linear-gradient(to right, black, white);
-    overflow-x: hidden; /* Empêcher le défilement horizontal */
-  }
+  background: linear-gradient(to right, black, white);
+  overflow-x: hidden; /* Empêcher le défilement horizontal */
+}
+
+/* CADRE IMG DESCRIPTION */
+@font-face {
+  font-family: Greconian;
+  src: url('https://justtheskills.com/vendor/tokokoo/greconian.ttf') format('truetype'); /* URL directe vers le fichier de police TrueType */
+}
+
+
+.profile-picture img {
+  max-width: 200px;
+  max-height: 200px;
+  margin-top: 30px;
+}
+
+.social-icons .me-3 {
+  color: white;
+}
+
+.social-icons a i {
+  transition: transform 0.3s ease;
+}
+
+.social-icons a:hover i {
+  transform: scale(1.5);
+  color: rgb(223, 170, 170);
+}
+
+
+.card-body {
+  background-color: #333333; /* Gris anthracite en hexadécimal */
+  border-radius: 25px;    
+}
+
+.pjoinmychannel {
+  margin-top: 60px;
+  font-size: 14px; /* Ajuster la taille de la police*/
+  color: rgb(58, 40, 172);
+}
+
+.h5nom {
+  font-family: Greconian;
+  font-size: 18px; /* Ajuster la taille de la police selon vos besoins */
+  color: rgb(255, 238, 218);
   
-  /* CADRE IMG DESCRIPTION */
-  @font-face {
-    font-family: Greconian;
-    src: url('https://justtheskills.com/vendor/tokokoo/greconian.ttf') format('truetype'); /* URL directe vers le fichier de police TrueType */
-  }
+}
+
+.bio {
+  margin-top: 16px;
+  font-family: "HP Simplified";
+  font-size: 18px; /* Ajuster la taille de la police selon vos besoins */
+  color: grey;
+}
+
+#container {
+  position: relative;
+  width: 100%;
+  height: 100%;
   
-  
+}
+
+#pokemon {
+  position: absolute;
+  top: 90%; /* Ajustez cette valeur pour décaler vers le haut */
+  left: calc(57% - 125px); /* Ajustez cette valeur pour décaler vers la gauche */
+  transform: translate(-70%, -120%);
+  width: 100px;
+  height: 100px;
+}
+
+
+
+
+@import url('https://fonts.cdnfonts.com/css/greconian');
+
+@media screen and (max-width: 768px) {
+  /* Styles pour les petits écrans comme ceux des iPhone et iPad */
   .profile-picture img {
-    max-width: 200px;
-    max-height: 200px;
-    margin-top: 30px;
+    max-width: 150px;
+    max-height: 150px;
   }
-  
-  .social-icons .me-3 {
-    color: white;
+
+}
+
+/* Pour les écrans d'iPad en mode paysage */
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  body {
+    font-size: 14px;
   }
-  
+}
+
+/* Pour les écrans d'iPhone en mode portrait */
+@media only screen and (max-width: 414px) {
+  body {
+    font-size: 12px;
+  }
+}
+
+
+@media only screen and (max-width: 768px) {
+  /* Styles pour les petits écrans comme ceux des iPhone et iPad */
   .social-icons a i {
-    transition: transform 0.3s ease;
+    font-size: 26px; /* Ajustez la taille de la police des icônes pour les appareils mobiles */
   }
-  
-  .social-icons a:hover i {
-    transform: scale(1.5);
-    color: rgb(223, 170, 170);
-  }
-  
-  
-  .card-body {
-    background-color: #333333; /* Gris anthracite en hexadécimal */
-    border-radius: 25px;    
-  }
-  
-  .pjoinmychannel {
-    margin-top: 60px;
-    font-size: 14px; /* Ajuster la taille de la police*/
-    color: rgb(58, 40, 172);
-  }
-  
-  .h5nom {
-    font-family: Greconian;
-    font-size: 18px; /* Ajuster la taille de la police selon vos besoins */
-    color: rgb(255, 238, 218);
-    
-  }
-  
-  .bio {
-    margin-top: 16px;
-    font-family: "HP Simplified";
-    font-size: 18px; /* Ajuster la taille de la police selon vos besoins */
-    color: grey;
-  }
-  
-  #container {
-    position: relative;
-    width: 100%;
-    height: 100%;
-    
-  }
-  
-  #pokemon {
-    position: absolute;
-    top: 90%; /* Ajustez cette valeur pour décaler vers le haut */
-    left: calc(50% - 125px); /* Ajustez cette valeur pour décaler vers la gauche */
-    transform: translate(-70%, -120%);
-    width: 100px;
-    height: 100px;
-  }
-  
-  
-  
-  
-  @import url('https://fonts.cdnfonts.com/css/greconian');
-  
-  @media screen and (max-width: 768px) {
-    /* Styles pour les petits écrans comme ceux des iPhone et iPad */
-    .profile-picture img {
-      max-width: 150px;
-      max-height: 150px;
-    }
-  
-  }
-  
-  /* Pour les écrans d'iPad en mode paysage */
-  @media only screen and (min-width: 768px) and (max-width: 1024px) {
-    body {
-      font-size: 14px;
-    }
-  }
-  
-  /* Pour les écrans d'iPhone en mode portrait */
-  @media only screen and (max-width: 414px) {
-    body {
-      font-size: 12px;
-    }
-  }
-  
-  
-  
+}
