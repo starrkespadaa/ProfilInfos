@@ -2,25 +2,25 @@ body {
     background: linear-gradient(to right, black, white);
 }
 
-/* Styles pour la section du profil */
 .profile-picture img {
-    max-width: 200px; /* Largeur maximale de la photo de profil */
-    max-height: 200px; /* Hauteur maximale de la photo de profil */
+    max-width: 200px;
+    max-height: 200px;
     margin-top: 30px;
 }
 
 .social-icons .me-3 {
-    color: white; /* Couleur des icônes */
+    color: white;
 }
 
 .social-icons a i {
-    transition: transform 0.3s ease; /* Animation de 0.3 seconde avec une courbe d'accélération */
+    transition: transform 0.3s ease;
 }
 
 .social-icons a:hover i {
-    transform: scale(1.5); /* Agrandissement de 50% au survol */
+    transform: scale(1.5);
     color: rgb(223, 170, 170);
 }
+
 
 .card-body {
     background-color: #333333; /* Gris anthracite en hexadécimal */
@@ -29,7 +29,7 @@ body {
 
 .pjoinmychannel {
     margin-top: 60px;
-    font-size: 14px; /* Ajuster la taille de la police
+    font-size: 14px; /* Ajuster la taille de la police*/
     color: rgb(58, 40, 172);
 }
 
@@ -50,7 +50,7 @@ body {
 /* Styles pour le Pokémon */
 #pokemon {
     position: absolute;
-    left: 45%;
+    left: 42%;
     transform: translateX(-50%);
     width: 90px;
     height: 90px;
